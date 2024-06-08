@@ -1,0 +1,18 @@
+#!/bin /bash
+# list all the files and directory 
+la 
+
+# To change the directory 
+cd robot 
+
+# To make the directory
+mkdir tech
+
+# to create a file 
+touch sourav
+
+# To remove a file 
+rm sourav
+
+# To remove a directory 
+rmdir tech
