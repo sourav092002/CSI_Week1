@@ -1,0 +1,21 @@
+#!/bin/bash
+# Create a user 
+useradd sourav
+
+# Set password to user 
+passwd sourav
+
+# Create a group
+groupadd admin
+
+# To add user to group
+usermod -aG admin sourav
+
+# Modify user propertise 
+usermod -c "Updated Test User" testuser
+
+# To delete the user 
+userdel sourav
+
+# To delete the group
+groupdel admin
