@@ -1,0 +1,10 @@
+# !/bin/bash
+# Create a File 
+touch sourav.txt
+
+# Assign Permission
+chmod 700 sourav.txt # read ,write ,excute for Owner
+chmod 750 sourav.txt # read ,write ,excute for Owner ; read ,excute for group
+chmod 755 sourav.txt # read ,write ,excute for Owner ; read ,excute for group ; read ,excute for user
+
+ls -l sourav.txt
