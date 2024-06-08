@@ -1,0 +1,14 @@
+#!/bin/bash
+# Navigate to home directory 
+cd 
+
+# List contents of directory 
+ls -l directory_name 
+
+# Create and navigate tthrough directory 
+mkdir -p sourav/raj
+cd sourav/raj
+
+# Create a file and list its contents 
+echo "this is good" > fun.txt
+cat fun.txt
